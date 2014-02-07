@@ -1,0 +1,109 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+td, th {
+	border-style:solid;
+	border-width:1px;
+}
+table {
+	border-collapse:collapse;
+}
+li {
+	display:block;
+}
+body {
+	font-size:12px;
+	-epub-hyphens:auto;
+	margin-right: 15px;
+	margin-left: 15px;
+	background-image: url(../image/bricks.png);
+	background-repeat: repeat-y;
+	width: 610px;
+}
+h2.subhead {
+	-epub-ruby-position:over;
+	color:#453229;
+	font-family:ATCOakBold, sans-serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.308;
+	margin-bottom:5px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.body {
+	-epub-hyphens:none;
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:ATCElmNormal, sans-serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.417;
+	margin-bottom:12px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent: 0px;
+}
+h1.head {
+	-epub-ruby-position:over;
+	color:#453229;
+	font-family:ATCOakBold, sans-serif;
+	font-size:21px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:0.81;
+	margin-bottom:8px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+	margin-top: 15px;
+}
+img {
+	float: left;
+	border: medium inset #D6D6D6;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+div.frame-1 {
+	margin:10px auto 10px auto;
+	text-align:center;
+}
+img.frame-2 {
+	height:159px;
+	width:215px;
+	margin-left: 0px;
+}
+img.frame-3 {
+	height:173px;
+	width:175px;
+	float: right;
+}
+img.frame-4 {
+	height:179px;
+	width:175px;
+	margin-left: 0px;
+}
+img.frame-5 {
+	height:173px;
+	width:175px;
+	float: right;
+}
+img.frame-6 {
+	height:134px;
+	width:200px;
+	margin-left: 0px;
+}
