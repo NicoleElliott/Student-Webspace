@@ -8,12 +8,12 @@ padding:0;
 
 html{
 	font-family: Georgia, serif;
-	background:url("images/light blue geometric.png");
+	background:url("../images/light blue geometric.png");
 }
 
 div
 {
-background:url("images/light blue leaf.png");
+background:url("../images/light blue leaf.png");
 background-size:850px 850px;
 background-repeat: repeat;
 }
