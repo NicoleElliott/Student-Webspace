@@ -7,13 +7,13 @@ padding:0;
 }
 
 html{
-	font-family: 'Noto Serif', serif;
-	background:url("../images/light blue geometric.png");
+	font-family: Georgia, serif;
+	background:url("images/light blue geometric.png");
 }
 
 div
 {
-background:url("../images/light blue leaf.png");
+background:url("images/light blue leaf.png");
 background-size:850px 850px;
 background-repeat: repeat;
 }
@@ -24,24 +24,21 @@ list-style: none;
 } 
 
 h1 {
-font-family: 'Noto Serif', serif;
-color: #00000;
+	font-family: Georgia, serif;
+color: #00325b;
 }
-
 h2 {
-font-family: 'Noto Serif', serif;
-color: #00000;
+	font-family: Georgia, serif;
+color: #00325b;
 }
-
 h3 {
-font-family: 'Noto Serif', serif;
-color: #00000;
+	font-family: Georgia, serif;
+color: #00325b;
 }
-
 p{
-font-family: Verdana, sans-serif;
-font-size: 16px;
-line-height:1.25em;
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+	line-height:1.25em;
 margin-bottom: 1em;
 }
 
@@ -51,16 +48,14 @@ margin-bottom: 1em;
 width: 755px;
 position:relative;
 margin: auto;
-background-color: #802A00;
+background-color: #008080;
 }
 /* top navigation div */
 #navcontainer ul {
-background-color: #802A00;
-
+background-color: #008080;
 float: left;
 width: 100%;
-padding-right: 32px; 
-/* bullets are included in the padding area */
+padding-right: 32px; /* bullets are included in the padding area */
 /* removing bullets requires padding to be added at the right */
 padding: 0; /* duplicates the default above, but fixes issues with Safari and IE */
 margin: 0; /* duplicates the default above, but fixes issues with Safari and IE */
@@ -73,21 +68,21 @@ display: inline;
 padding: 0.2em 1em;
 text-decoration: none;
 float: left;
-border-right: 1px solid #000000;
-color: #000000;
+border-right: 1px solid #fff;
+color: #fff;
 }
 /* change the background-color to be #369 */
 #navcontainer ul li a:hover { /* controls the over or hover state of rollover */
-background-color: #000000;
+background-color: #BFFFFE;
 }
 #navcontainer ul li #current { /* sets the link of the active page tab color to be different */
-background-color: #000000;
+background-color: #BFFFFE;
 }
 
 #main {
 float: left;
 width: 100%;
-background-color: #802A00;
+background-color: #008080;
 
 }
 
@@ -111,8 +106,8 @@ margin:10px;
 /* set text color to white, background color to #008080, position to absolute */
 /* bottom postion to 0px, and width to 100% */
 #footer {
-color:#000000;
-background-color: #802A00;
+color:#FFF;
+background-color: #008080;
 bottom: 0px;
 width: 100%;
 padding-right: 32px; /* fits content to match navcontainer width */
@@ -124,11 +119,11 @@ margin:0;
 }
 /* sets the anchors in the footer id to be white and no underline */
 #footer a {
-color:#000000;
+color:#FFF;
 text-decoration:none;
 }
 
 #footer a:hover {
-color: #000000;
+color:#369;
 text-decoration:underline;
 }

@@ -64,7 +64,7 @@ template {
  */
 
 html {
-    font-family: 'Noto Serif', serif; /* 1 */
+     font-family: Georgia, serif; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
 	line-height:1.25em;
@@ -79,23 +79,6 @@ body {
     margin: 0;
 }
 
-h1{
-font-family: 'Noto Serif', serif;
-}
-
-h2{
-font-family: 'Noto Serif', serif;
-}
-
-h3{
-font-family: 'Noto Serif', serif;
-
-} 
-
-p {
-  font-family: Verdana, sans-serif;
-  margin: 0;
-}
 /* ==========================================================================
    Links
    ========================================================================== */
